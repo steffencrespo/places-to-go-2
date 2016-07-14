@@ -4,7 +4,9 @@
 <table>
   <tbody>
     <tr *ngFor="let restaurant of restaurants">
-      {{restaurant.name}}
+      <td class="place-name">{{restaurant.name}}</td>
+      <td class="place-url">{{restaurant.url}}</td>
+      <td class="place-rating">{{restaurant.points}}</td>
     </tr>
   </tbody>
 </table>
