@@ -1,3 +1,10 @@
 <h1>
   {{title}}
 </h1>
+<table>
+  <tbody>
+    <tr *ngFor="let restaurant of restaurants">
+      {{restaurant.name}}
+    </tr>
+  </tbody>
+</table>
