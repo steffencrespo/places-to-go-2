@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
+import { PlaceComponent } from "../place.component/place.component";
 
 @Component({
   moduleId: module.id,
   selector: 'app-root',
   templateUrl: 'app.component.html',
-  styleUrls: ['app.component.css']
+  styleUrls: ['app.component.css'],
+  directives: [PlaceComponent]
 })
 export class AppComponent {
   title = 'Best places to visit';
