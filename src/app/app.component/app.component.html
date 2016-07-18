@@ -4,10 +4,10 @@
 <table>
   <thead><tr><th colspan="4">Places we love</th></tr></thead>
   <tbody>
-    <tr *ngFor="let restaurant of restaurants">
-      <td class="place-name">{{restaurant.name}}</td>
-      <td class="place-url">{{restaurant.url}}</td>
-      <td class="place-rating">{{restaurant.points}}</td>
+    <tr *ngFor="let place of places">
+      <td class="place-name">{{place.name}}</td>
+      <td class="place-url">{{place.url}}</td>
+      <td class="place-rating">{{place.points}}</td>
     </tr>
   </tbody>
 </table>

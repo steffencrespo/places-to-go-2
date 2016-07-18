@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Best places to visit';
-  restaurants: Array<any> = [
+  places: Array<any> = [
     {
       "name": "Loló",
       "points": "322",
