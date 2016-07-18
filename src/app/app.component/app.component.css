@@ -44,16 +44,3 @@ th, td {
 .place-list-position {
   padding-right: 100px;
 }
-
-.place-name {
-  padding-right: 100px;
-  font-style: italic;
-}
-
-.place-url {
-  padding-right: 100px;
-}
-
-.place-rating {
-  padding-left: 10px;
-}
