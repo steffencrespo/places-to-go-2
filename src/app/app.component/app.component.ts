@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { PlaceComponent } from "../place.component/place.component";
+import { Place } from "../shared/place";
 
 @Component({
   moduleId: module.id,
@@ -8,9 +9,13 @@ import { PlaceComponent } from "../place.component/place.component";
   styleUrls: ['app.component.css'],
   directives: [PlaceComponent]
 })
+
 export class AppComponent {
   title = 'Best places to visit';
-  places: Array<any> = [
+  public places = PLACES;
+}
+
+const PLACES: Place[] = [
     {
       "name": "Loló",
       "points": "322",
@@ -36,5 +41,4 @@ export class AppComponent {
       "points": "190",
       "url": "www.google.com"
     }
-  ]
-}
+    ]
